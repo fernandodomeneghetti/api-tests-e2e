@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Nesta aula, vamos aprender a criar testes end-to-end (E2E) utilizando Cypress para uma API RESTful. Vamos focar em testar os endpoints de deleção de usuários.
+Nesta aula, vamos aprender a criar testes end-to-end (E2E) utilizando Cypress para uma API RESTful.
 
 ### Pré-requisitos
 - Node.js instalado
@@ -95,4 +95,4 @@ Enviamos uma requisição DELETE para um ID de usuário que não existe.
 Verificamos se o status da resposta é 404 e se a mensagem de erro está correta.
 
 ### Conclusão
-Nesta aula, aprendemos a configurar o Cypress e escrever testes end-to-end para uma API RESTful. Testamos especificamente o endpoint de deleção de usuários, verificando tanto o sucesso quanto o erro de usuário não encontrado.
+Nesta aula, aprendemos a configurar o Cypress e escrever testes end-to-end para uma API RESTful. Testamos alguns endpoints de usuários, verificando tanto o sucesso quanto o erro de usuário não encontrado.
