@@ -22,7 +22,7 @@ describe('API Test - Delete User', () => {
       failOnStatusCode: false
     }).then((response) => {
       expect(response.status).to.eq(404);
-      expect(response.body).to.have.property('description', 'Usuário não encontrado');
+      expect(response.body).to.have.property('message', 'Usuário não encontrado');
     });
   });
 });
